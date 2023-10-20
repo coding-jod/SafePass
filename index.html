@@ -10,7 +10,7 @@
 <body>
     
         <header class="d-flex  justify-content-center py-3 mb-0  border-bottom" data-bs-theme="dark">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <a  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy2-fill" viewBox="0 0 16 16">
                 <path d="M12 2h-2v3h2V2Z"/>
                 <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v13A1.5 1.5 0 0 0 1.5 16h13a1.5 1.5 0 0 0 1.5-1.5V2.914a1.5 1.5 0 0 0-.44-1.06L14.147.439A1.5 1.5 0 0 0 13.086 0H1.5ZM4 6a1 1 0 0 1-1-1V1h10v4a1 1 0 0 1-1 1H4ZM3 9h10a1 1 0 0 1 1 1v5H2v-5a1 1 0 0 1 1-1Z"/>
@@ -19,11 +19,20 @@
           </a>
     
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link " aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link " aria-current="page">Home</a></li>
             <!-- <li class="nav-item"><a href="#" class="nav-link">Features</a></li> -->
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/pratham-agarwal-768487227/">Developer Profile</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/coding-jod/SafePass">Github Folder</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
           </ul>
         </header>
         <main>
@@ -69,8 +78,8 @@
                   </div>
                 </div>
               </div>
-              <div class="table-responsive">
-                <table class="table text-center">
+              <div class="table-responsive ">
+                <table class="table text-center ">
                   <thead>
                     <tr>
                       <th style="width: 34%;"> Website </th>
